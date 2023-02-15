@@ -8,13 +8,4 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-// Call the function for verification
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
-assertArraysEqual([1, 2, 3], [3, 2, 1]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]);
-assertArraysEqual(["1", "2", "3"], ["1", "2", 3]);
-assertArraysEqual([1, 2, 3], [1, 2, 3, 4]);
-assertArraysEqual([], []);
-
-// Export assertArraysEqual function
 module.exports = assertArraysEqual;
