@@ -28,4 +28,7 @@ assertEqual(findKey(object1, x => x.score < 4), "b");
 assertEqual(findKey(object1, x => x.score > 8), undefined);
 
 
+module.exports = findKey;
+
+
 

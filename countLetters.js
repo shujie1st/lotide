@@ -30,3 +30,6 @@ assertEqual(countLetters(testString)["y"], 2);
 assertEqual(countLetters(testString)["d"], 1);
 assertEqual(countLetters(testString)[" "], undefined);
 assertEqual(countLetters(testString)["c"], undefined);
+
+
+module.exports = countLetters;

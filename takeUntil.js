@@ -46,3 +46,6 @@ assertArraysEqual(takeUntil(data3, x => x.length < 2), ["hello", "hi", "yes", "f
 // TEST CASE 4
 const data4 = ["hello", "hi", "yes", "hello", "hi", "hello"];
 assertArraysEqual(takeUntil(data4, x => x[0] !== "h"), ["hello", "hi"]);
+
+
+module.exports = takeUntil;

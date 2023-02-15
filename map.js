@@ -44,3 +44,5 @@ assertArraysEqual(map(cities, city => city[0]), ["O", "T", "V", "M", "C"]);
 // TEST CASE4
 const shoppinglist = [{name: "apple", quantity: 4 }, {name: "bread", quantity: 2 }, {name: "milk", quantity: 2 }, {name: "peach", quantity: 2 }, {name: "lettuce", quantity: 1 }];
 assertArraysEqual(map(shoppinglist, item => item.name), ["apple", "bread", "milk", "peach", "lettuce"]);
+
+module.exports = map;

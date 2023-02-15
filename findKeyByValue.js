@@ -36,3 +36,4 @@ assertEqual(findKeyByValue(person, "105 Main Street"), "address");
 assertEqual(findKeyByValue(person, 25), "age");
 
 
+module.exports = findKeyByValue;
