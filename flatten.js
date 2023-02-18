@@ -3,7 +3,7 @@ const flatten = function(inputArray) {
   for (const element of inputArray) {
     if (Array.isArray(element)) {
       flattenedArray = flattenedArray.concat(flatten(element));
-    } else {  
+    } else {
       flattenedArray.push(element);
     }
   }
