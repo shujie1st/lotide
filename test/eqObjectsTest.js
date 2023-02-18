@@ -32,7 +32,6 @@ describe("#eqObjects", () => {
     const object04 = { a: { z: 1 }, b: 2 };
     assert.strictEqual(eqObjects(object03, object04), false);
   });
-
   it("returns true for object05 and object06", () => {
     const object05 = { a: { y: 0, z: 1 }, b: 2 };
     const object06 = { a: { y: 0, z: 1 }, b: 2 };
